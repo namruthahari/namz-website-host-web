@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="subscribestyle.css">
+    <link rel="icon" id="nicon" type="image/png" href="/public/Nicon.png"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body bgcolor="#131313">
+
+        <!-- Navbar Section -->
+    
+        <nav class="navbar">
+            <div class="navbar__container">
+              <a href="index.html" id="navbar__logo">NAMRUTHA HARI</a>
+              <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="navbar__menu">
+                <li class="navbar__item">
+                  <a href="index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="index.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="index.html" class="navbar__links" id="blog-page"
+                    >Blog</a
+                  >
+                </li>
+                <li class="navbar__btn"> 
+                  <a href="subscribe.html" class="button" id="subscribe">Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    <div class="box">
+        <div class="form">
+            <div class="input">
+                <label for="id">Your ID:</label>
+                <input class="no" type="number"/>
+                <label for="id">Your name:</label>
+                <input class="name" type="text"/>
+                <label for="id">Your email:</label>
+                <input class="email" type="email"/>
+            </div>
+            <div class="btnf" >
+                <button class="buttonf" id="add">Add</button >
+                <button class="buttonf" id="up">Update</button >
+                <button class="buttonf" id="get">Get</button >
+                <button class="buttonf" id="del">Delete</button >
+            </div>
+        </div>
+    </div>
+
+    <hr></hr>
+
+<!-- Footer -->
+
+<div >
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"></a>
+        </div>
+        <p class="website__rights">© Namrutha 2020. All rights reserved</p>
+        <div class="social__icons">
+          <a href="https://www.instagram.com/clickfornamz/?hl=en" class="social__icon--link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCS9e061iP7Fku8TzG6uqpRA" class="social__icon--link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/namrutha-hari-0376331b4/" class="social__icon--link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/home?lang=en" class="social__icon--link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<script src="subscribemain.js"></script>
+</html>
