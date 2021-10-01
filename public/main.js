@@ -57,6 +57,37 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 
                   
-        
+var bMTTsvuCUBW2fNvy = document.getElementById("gErWZB891Fr5VPeW");
+var profileimg=document.getElementsByClassName("main__img--card gErWd94kyHur5VPeW");
+
+window.onscroll = function() {H4rD4Ds9sHPkQSqV()};
+
+function H4rD4Ds9sHPkQSqV() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    bMTTsvuCUBW2fNvy.style.display = "block";
+  } else {
+    bMTTsvuCUBW2fNvy.style.display = "none";
+  }
+  
+}
+function H4rD4D1s9s82kQSqV() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+$(document).ready(function() {
+  $(window).scroll( function(){
+      $('.main__img--card gErWd94kyHur5VPeW').each( function(i){
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          if( bottom_of_window > bottom_of_object ){
+              $(this).animate({'opacity':'1'},500);
+          }
+      }); 
+  });
+});
+
+
+
 
             
