@@ -1,0 +1,33 @@
+
+ p {
+     margin-top: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+
+  }
+  .containerTextEffect p span.typed-text {
+    font-weight: normal;
+    color: #05C7F2;
+  }
+  .containerTextEffect p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .containerTextEffect p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
