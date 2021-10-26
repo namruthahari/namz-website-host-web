@@ -18,7 +18,7 @@
     z-index: 999
 }
 
-.logoIcon{    
+.gaWd52ker529aHk{    
     width:50px;
     margin-top:10px;
     margin-left:10px;
@@ -236,8 +236,7 @@
 }
 
 .top__heading {
-    font-size: 100px;
-    margin-bottom: 24px;
+    font-size: 90px;
     color: #fff
 }
 
@@ -253,7 +252,7 @@
 }
 
 .top__description {
-    font-size: 60px;
+    font-size: 50px;
     background: #da22ff;
     background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
     background: linear-gradient(to right, #8f0eff, #da22ff);
