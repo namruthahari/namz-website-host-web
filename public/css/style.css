@@ -218,7 +218,7 @@
     background: #000;
     background: linear-gradient(to right, #161616, #000);
     padding: 200px 0;
-    background-image: url('/public/img/homecover.jpg');
+    background-image: url('../img/homecover.jpg');
     background-size: cover;
 }
 
