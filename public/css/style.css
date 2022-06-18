@@ -541,7 +541,11 @@ background-color: #131313;
     display: flex;
     justify-content: center;
     margin-top: 16px;
-    text-decoration: none
+}
+    .blog__link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .blog__card button {
